@@ -1,0 +1,17 @@
+{
+  "name": "construtora-excelencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/css/input.css -o ./dist/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Gabriel Amaral",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
