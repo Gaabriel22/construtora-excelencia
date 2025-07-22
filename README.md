@@ -6,7 +6,7 @@ Landing page institucional fictícia criada com foco em apresentar os serviços 
 
 ## 🔗 Deploy
 
-**[🔗 Link para o site publicado](#)**
+**[🔗 Link para o site publicado](https://gaabriel22.github.io/construtora-excelencia/)**
 
 ---
 
