@@ -480,5 +480,181 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-primary text-light">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+          <p class="text-lg max-w-2xl mx-auto">
+            Solicite um orçamento ou tire suas dúvidas sobre nossos serviços. Nossa equipe está pronta para atendê-lo.
+          </p>
+          <div class="w-20 h-1 bg-accent mx-auto mt-4"></div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8">
+          <div class="lg:w-1/2">
+            <form id="contact-form" class="bg-light rounded-lg shadow-xl p-6 text-darkmode">
+              <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-medium mb-2">Nome Completo</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                  required
+                />
+              </div>
+
+              <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-medium mb-2">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                  required
+                />
+              </div>
+
+              <div class="mb-4">
+                <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                />
+              </div>
+
+              <div class="mb-4">
+                <label for="service" class="block text-gray-700 font-medium mb-2">Serviço de Interesse</label>
+                <select
+                  name="service"
+                  id="service"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                >
+                  <option value="">Selecione um serviço</option>
+                  <option value="construcao-residencial">Construção Residencial</option>
+                  <option value="reformas">Reformas e Renovações</option>
+                  <option value="construcao-comercial">Construção Comercial</option>
+                  <option value="design-interiores">Design de Interiores</option>
+                  <option value="projetos">Projetos Personalizados</option>
+                  <option value="gerenciamento">Gerenciamento de Obras</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-accent hover:bg-yellow-600 text-light font-bold py-3 px-6 rounded-lg transition duration-300"
+              >
+                Enviar Mensagem
+              </button>
+            </form>
+          </div>
+
+          <div class="lg:w-1/2">
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg shadow-xl p-6 h-full">
+              <h3 class="text-2xl font-bold mb-6">Informações de Contato</h3>
+
+              <div class="space-y-6">
+                <div class="flex items-start">
+                  <div class="bg-accent rounded-full p-3 mr-4">
+                    <i class="fas fa-map-marker-alt text-light"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-1">Endereço</h4>
+                    <p>
+                      Av. Paulista, 1000 - Bela Vista
+                      <br />
+                      São Paulo - SP, 01310-100
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-accent rounded-full p-3 mr-4">
+                    <i class="fas fa-phone-alt text-light"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-1">Telefone</h4>
+                    <p>
+                      (11) 1234-5678
+                      <br />
+                      (11) 98765-4321 (WhatsApp)
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-accent rounded-full p-3 mr-4">
+                    <i class="fas fa-envelope text-light"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-1">E-mail</h4>
+                    <p>contato@construtoraexcelencia.com.br</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-accent rounded-full p-3 mr-4">
+                    <i class="fas fa-clock text-light"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-bold mb-1">Horário de Atendimento</h4>
+                    <p>
+                      Segunda a Sexta: 8h às 18h
+                      <br />
+                      Sábado: 9h às 13h
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h4 class="font-bold mb-4">Siga-nos nas Redes Sociais</h4>
+                <div class="flex space-x-4">
+                  <a
+                    href="#"
+                    class="bg-white/20 hover:bg-white/30 w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-white/20 hover:bg-white/30 w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-white/20 hover:bg-white/30 w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-white/20 hover:bg-white/30 w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
